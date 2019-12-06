@@ -20,6 +20,7 @@
 		C61BA9F0239A9F560008C661 /* currencyExchange.json in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9EF239A9F560008C661 /* currencyExchange.json */; };
 		C6824810239AE538001E076C /* ImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682480F239AE538001E076C /* ImageAPIClient.swift */; };
 		C6824812239AE695001E076C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6824811239AE695001E076C /* AppError.swift */; };
+		C6824814239AF890001E076C /* CountryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6824813239AF890001E076C /* CountryDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C61BA9EF239A9F560008C661 /* currencyExchange.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = currencyExchange.json; sourceTree = "<group>"; };
 		C682480F239AE538001E076C /* ImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPIClient.swift; sourceTree = "<group>"; };
 		C6824811239AE695001E076C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		C6824813239AF890001E076C /* CountryDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				C61BA9C3239A990C0008C661 /* CountriesVC.swift */,
 				C61BA9EB239A9F010008C661 /* CountryCell.swift */,
+				C6824813239AF890001E076C /* CountryDetailVC.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6824814239AF890001E076C /* CountryDetailVC.swift in Sources */,
 				C61BA9EA239A9B710008C661 /* Country.swift in Sources */,
 				C61BA9C4239A990C0008C661 /* CountriesVC.swift in Sources */,
 				C61BA9EC239A9F010008C661 /* CountryCell.swift in Sources */,

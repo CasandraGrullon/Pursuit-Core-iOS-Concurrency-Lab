@@ -29,6 +29,13 @@ class CountriesVC: UIViewController {
     func loadData(){
         countries = Country.getCountry()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let detailVC = segue.destination as? CountryDetailVC, let indexPath = tableView.indexPathForSelectedRow else {
+            fatalError("segue issue")
+        }
+        detailVC.country = countries[indexPath.row]
+    }
 
 }
 
@@ -49,7 +56,7 @@ extension CountriesVC : UITableViewDataSource {
 }
 extension CountriesVC: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 140
+        return 160
         
     }
 }
