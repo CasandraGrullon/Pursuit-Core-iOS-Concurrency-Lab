@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61BA9C0239A990C0008C661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9BF239A990C0008C661 /* AppDelegate.swift */; };
+		C61BA9C2239A990C0008C661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9C1239A990C0008C661 /* SceneDelegate.swift */; };
+		C61BA9C4239A990C0008C661 /* CountriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9C3239A990C0008C661 /* CountriesVC.swift */; };
+		C61BA9C7239A990C0008C661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9C5239A990C0008C661 /* Main.storyboard */; };
+		C61BA9C9239A990D0008C661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9C8239A990D0008C661 /* Assets.xcassets */; };
+		C61BA9CC239A990D0008C661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9CA239A990D0008C661 /* LaunchScreen.storyboard */; };
+		C61BA9D7239A990D0008C661 /* ConcurrencyLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9D6239A990D0008C661 /* ConcurrencyLabTests.swift */; };
+		C61BA9E4239A9A590008C661 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9E3239A9A590008C661 /* country.json */; };
+		C61BA9E8239A9B530008C661 /* currencyExchange in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9E7239A9B530008C661 /* currencyExchange */; };
+		C61BA9EA239A9B710008C661 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9E9239A9B710008C661 /* Country.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61BA9D3239A990D0008C661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61BA9B4239A990C0008C661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61BA9BB239A990C0008C661;
+			remoteInfo = ConcurrencyLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C61BA9BC239A990C0008C661 /* ConcurrencyLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrencyLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61BA9BF239A990C0008C661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C61BA9C1239A990C0008C661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C61BA9C3239A990C0008C661 /* CountriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesVC.swift; sourceTree = "<group>"; };
+		C61BA9C6239A990C0008C661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61BA9C8239A990D0008C661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61BA9CB239A990D0008C661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C61BA9CD239A990D0008C661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61BA9D2239A990D0008C661 /* ConcurrencyLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61BA9D6239A990D0008C661 /* ConcurrencyLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyLabTests.swift; sourceTree = "<group>"; };
+		C61BA9D8239A990D0008C661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61BA9E3239A9A590008C661 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
+		C61BA9E7239A9B530008C661 /* currencyExchange */ = {isa = PBXFileReference; lastKnownFileType = text; path = currencyExchange; sourceTree = "<group>"; };
+		C61BA9E9239A9B710008C661 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61BA9B9239A990C0008C661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61BA9CF239A990D0008C661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61BA9B3239A990C0008C661 = {
+			isa = PBXGroup;
+			children = (
+				C61BA9BE239A990C0008C661 /* ConcurrencyLab */,
+				C61BA9D5239A990D0008C661 /* ConcurrencyLabTests */,
+				C61BA9BD239A990C0008C661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61BA9BD239A990C0008C661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61BA9BC239A990C0008C661 /* ConcurrencyLab.app */,
+				C61BA9D2239A990D0008C661 /* ConcurrencyLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61BA9BE239A990C0008C661 /* ConcurrencyLab */ = {
+			isa = PBXGroup;
+			children = (
+				C61BA9BF239A990C0008C661 /* AppDelegate.swift */,
+				C61BA9C1239A990C0008C661 /* SceneDelegate.swift */,
+				C61BA9E7239A9B530008C661 /* currencyExchange */,
+				C61BA9E3239A9A590008C661 /* country.json */,
+				C61BA9E9239A9B710008C661 /* Country.swift */,
+				C61BA9C3239A990C0008C661 /* CountriesVC.swift */,
+				C61BA9C5239A990C0008C661 /* Main.storyboard */,
+				C61BA9C8239A990D0008C661 /* Assets.xcassets */,
+				C61BA9CA239A990D0008C661 /* LaunchScreen.storyboard */,
+				C61BA9CD239A990D0008C661 /* Info.plist */,
+			);
+			path = ConcurrencyLab;
+			sourceTree = "<group>";
+		};
+		C61BA9D5239A990D0008C661 /* ConcurrencyLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				C61BA9D6239A990D0008C661 /* ConcurrencyLabTests.swift */,
+				C61BA9D8239A990D0008C661 /* Info.plist */,
+			);
+			path = ConcurrencyLabTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61BA9BB239A990C0008C661 /* ConcurrencyLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61BA9DB239A990D0008C661 /* Build configuration list for PBXNativeTarget "ConcurrencyLab" */;
+			buildPhases = (
+				C61BA9B8239A990C0008C661 /* Sources */,
+				C61BA9B9239A990C0008C661 /* Frameworks */,
+				C61BA9BA239A990C0008C661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcurrencyLab;
+			productName = ConcurrencyLab;
+			productReference = C61BA9BC239A990C0008C661 /* ConcurrencyLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61BA9D1239A990D0008C661 /* ConcurrencyLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61BA9DE239A990D0008C661 /* Build configuration list for PBXNativeTarget "ConcurrencyLabTests" */;
+			buildPhases = (
+				C61BA9CE239A990D0008C661 /* Sources */,
+				C61BA9CF239A990D0008C661 /* Frameworks */,
+				C61BA9D0239A990D0008C661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61BA9D4239A990D0008C661 /* PBXTargetDependency */,
+			);
+			name = ConcurrencyLabTests;
+			productName = ConcurrencyLabTests;
+			productReference = C61BA9D2239A990D0008C661 /* ConcurrencyLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61BA9B4239A990C0008C661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "casandra grullon";
+				TargetAttributes = {
+					C61BA9BB239A990C0008C661 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C61BA9D1239A990D0008C661 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C61BA9BB239A990C0008C661;
+					};
+				};
+			};
+			buildConfigurationList = C61BA9B7239A990C0008C661 /* Build configuration list for PBXProject "ConcurrencyLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61BA9B3239A990C0008C661;
+			productRefGroup = C61BA9BD239A990C0008C661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61BA9BB239A990C0008C661 /* ConcurrencyLab */,
+				C61BA9D1239A990D0008C661 /* ConcurrencyLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61BA9BA239A990C0008C661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61BA9E4239A9A590008C661 /* country.json in Resources */,
+				C61BA9CC239A990D0008C661 /* LaunchScreen.storyboard in Resources */,
+				C61BA9E8239A9B530008C661 /* currencyExchange in Resources */,
+				C61BA9C9239A990D0008C661 /* Assets.xcassets in Resources */,
+				C61BA9C7239A990C0008C661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61BA9D0239A990D0008C661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61BA9B8239A990C0008C661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61BA9EA239A9B710008C661 /* Country.swift in Sources */,
+				C61BA9C4239A990C0008C661 /* CountriesVC.swift in Sources */,
+				C61BA9C0239A990C0008C661 /* AppDelegate.swift in Sources */,
+				C61BA9C2239A990C0008C661 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61BA9CE239A990D0008C661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61BA9D7239A990D0008C661 /* ConcurrencyLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61BA9D4239A990D0008C661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61BA9BB239A990C0008C661 /* ConcurrencyLab */;
+			targetProxy = C61BA9D3239A990D0008C661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C61BA9C5239A990C0008C661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61BA9C6239A990C0008C661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C61BA9CA239A990D0008C661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61BA9CB239A990D0008C661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C61BA9D9239A990D0008C661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C61BA9DA239A990D0008C661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C61BA9DC239A990D0008C661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRUP55ZMLQ;
+				INFOPLIST_FILE = ConcurrencyLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.casandragrullon.ConcurrencyLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C61BA9DD239A990D0008C661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRUP55ZMLQ;
+				INFOPLIST_FILE = ConcurrencyLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.casandragrullon.ConcurrencyLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C61BA9DF239A990D0008C661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRUP55ZMLQ;
+				INFOPLIST_FILE = ConcurrencyLabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.casandragrullon.ConcurrencyLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConcurrencyLab.app/ConcurrencyLab";
+			};
+			name = Debug;
+		};
+		C61BA9E0239A990D0008C661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRUP55ZMLQ;
+				INFOPLIST_FILE = ConcurrencyLabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.casandragrullon.ConcurrencyLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConcurrencyLab.app/ConcurrencyLab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61BA9B7239A990C0008C661 /* Build configuration list for PBXProject "ConcurrencyLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61BA9D9239A990D0008C661 /* Debug */,
+				C61BA9DA239A990D0008C661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61BA9DB239A990D0008C661 /* Build configuration list for PBXNativeTarget "ConcurrencyLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61BA9DC239A990D0008C661 /* Debug */,
+				C61BA9DD239A990D0008C661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61BA9DE239A990D0008C661 /* Build configuration list for PBXNativeTarget "ConcurrencyLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61BA9DF239A990D0008C661 /* Debug */,
+				C61BA9E0239A990D0008C661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61BA9B4239A990C0008C661 /* Project object */;
+}
