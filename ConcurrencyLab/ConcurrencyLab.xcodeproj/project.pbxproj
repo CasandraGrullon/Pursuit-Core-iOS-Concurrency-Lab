@@ -15,8 +15,11 @@
 		C61BA9CC239A990D0008C661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9CA239A990D0008C661 /* LaunchScreen.storyboard */; };
 		C61BA9D7239A990D0008C661 /* ConcurrencyLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9D6239A990D0008C661 /* ConcurrencyLabTests.swift */; };
 		C61BA9E4239A9A590008C661 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9E3239A9A590008C661 /* country.json */; };
-		C61BA9E8239A9B530008C661 /* currencyExchange in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9E7239A9B530008C661 /* currencyExchange */; };
 		C61BA9EA239A9B710008C661 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9E9239A9B710008C661 /* Country.swift */; };
+		C61BA9EC239A9F010008C661 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9EB239A9F010008C661 /* CountryCell.swift */; };
+		C61BA9F0239A9F560008C661 /* currencyExchange.json in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9EF239A9F560008C661 /* currencyExchange.json */; };
+		C6824810239AE538001E076C /* ImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682480F239AE538001E076C /* ImageAPIClient.swift */; };
+		C6824812239AE695001E076C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6824811239AE695001E076C /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +45,11 @@
 		C61BA9D6239A990D0008C661 /* ConcurrencyLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyLabTests.swift; sourceTree = "<group>"; };
 		C61BA9D8239A990D0008C661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C61BA9E3239A9A590008C661 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
-		C61BA9E7239A9B530008C661 /* currencyExchange */ = {isa = PBXFileReference; lastKnownFileType = text; path = currencyExchange; sourceTree = "<group>"; };
 		C61BA9E9239A9B710008C661 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		C61BA9EB239A9F010008C661 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		C61BA9EF239A9F560008C661 /* currencyExchange.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = currencyExchange.json; sourceTree = "<group>"; };
+		C682480F239AE538001E076C /* ImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPIClient.swift; sourceTree = "<group>"; };
+		C6824811239AE695001E076C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +93,8 @@
 			children = (
 				C61BA9BF239A990C0008C661 /* AppDelegate.swift */,
 				C61BA9C1239A990C0008C661 /* SceneDelegate.swift */,
-				C61BA9E7239A9B530008C661 /* currencyExchange */,
-				C61BA9E3239A9A590008C661 /* country.json */,
-				C61BA9E9239A9B710008C661 /* Country.swift */,
-				C61BA9C3239A990C0008C661 /* CountriesVC.swift */,
+				C61BA9EE239A9F210008C661 /* Data */,
+				C61BA9ED239A9F0C0008C661 /* UI */,
 				C61BA9C5239A990C0008C661 /* Main.storyboard */,
 				C61BA9C8239A990D0008C661 /* Assets.xcassets */,
 				C61BA9CA239A990D0008C661 /* LaunchScreen.storyboard */,
@@ -106,6 +110,27 @@
 				C61BA9D8239A990D0008C661 /* Info.plist */,
 			);
 			path = ConcurrencyLabTests;
+			sourceTree = "<group>";
+		};
+		C61BA9ED239A9F0C0008C661 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C61BA9C3239A990C0008C661 /* CountriesVC.swift */,
+				C61BA9EB239A9F010008C661 /* CountryCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C61BA9EE239A9F210008C661 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C61BA9E3239A9A590008C661 /* country.json */,
+				C61BA9EF239A9F560008C661 /* currencyExchange.json */,
+				C682480F239AE538001E076C /* ImageAPIClient.swift */,
+				C6824811239AE695001E076C /* AppError.swift */,
+				C61BA9E9239A9B710008C661 /* Country.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,8 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C61BA9E4239A9A590008C661 /* country.json in Resources */,
+				C61BA9F0239A9F560008C661 /* currencyExchange.json in Resources */,
 				C61BA9CC239A990D0008C661 /* LaunchScreen.storyboard in Resources */,
-				C61BA9E8239A9B530008C661 /* currencyExchange in Resources */,
 				C61BA9C9239A990D0008C661 /* Assets.xcassets in Resources */,
 				C61BA9C7239A990C0008C661 /* Main.storyboard in Resources */,
 			);
@@ -213,8 +238,11 @@
 			files = (
 				C61BA9EA239A9B710008C661 /* Country.swift in Sources */,
 				C61BA9C4239A990C0008C661 /* CountriesVC.swift in Sources */,
+				C61BA9EC239A9F010008C661 /* CountryCell.swift in Sources */,
+				C6824810239AE538001E076C /* ImageAPIClient.swift in Sources */,
 				C61BA9C0239A990C0008C661 /* AppDelegate.swift in Sources */,
 				C61BA9C2239A990C0008C661 /* SceneDelegate.swift in Sources */,
+				C6824812239AE695001E076C /* AppError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
