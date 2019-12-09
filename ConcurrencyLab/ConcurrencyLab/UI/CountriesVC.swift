@@ -9,7 +9,7 @@
 import UIKit
 
 class CountriesVC: UIViewController {
-
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     
@@ -24,10 +24,15 @@ class CountriesVC: UIViewController {
         loadData()
         tableView.dataSource = self
         tableView.delegate = self
+        searchBar.delegate = self
     }
-
+    
     func loadData(){
         countries = Country.getCountry()
+    }
+    
+    func searchCountry(for searchText: String){
+        countries = countries.filter{$0.name.lowercased().contains(searchText.lowercased())}
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -36,7 +41,7 @@ class CountriesVC: UIViewController {
         }
         detailVC.country = countries[indexPath.row]
     }
-
+    
 }
 
 extension CountriesVC : UITableViewDataSource {
@@ -58,5 +63,18 @@ extension CountriesVC: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 160
         
+    }
+}
+
+extension CountriesVC: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+    }
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        guard !searchText.isEmpty else {
+            loadData()
+            return
+        }
+        searchCountry(for: searchText)
     }
 }

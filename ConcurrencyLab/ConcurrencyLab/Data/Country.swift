@@ -8,13 +8,15 @@
 
 import Foundation
 
-struct Country: Codable {
+struct Country: Decodable {
     let name: String
     let capital: String
     let population: Int
     let flag: String
     let alpha2Code: String
+
 }
+
 
 extension Country {
     static func getCountry() -> [Country] {
@@ -29,7 +31,7 @@ extension Country {
             let countryData = try JSONDecoder().decode([Country].self, from: data)
             country = countryData
         }catch {
-            fatalError("\(error)")
+            print(error)
         }
         
         return country

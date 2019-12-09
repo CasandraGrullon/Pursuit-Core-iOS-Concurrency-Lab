@@ -18,6 +18,7 @@
 		C61BA9EA239A9B710008C661 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9E9239A9B710008C661 /* Country.swift */; };
 		C61BA9EC239A9F010008C661 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BA9EB239A9F010008C661 /* CountryCell.swift */; };
 		C61BA9F0239A9F560008C661 /* currencyExchange.json in Resources */ = {isa = PBXBuildFile; fileRef = C61BA9EF239A9F560008C661 /* currencyExchange.json */; };
+		C625D396239EE17E00063487 /* CurrencyExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C625D395239EE17E00063487 /* CurrencyExchange.swift */; };
 		C6824810239AE538001E076C /* ImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682480F239AE538001E076C /* ImageAPIClient.swift */; };
 		C6824812239AE695001E076C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6824811239AE695001E076C /* AppError.swift */; };
 		C6824814239AF890001E076C /* CountryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6824813239AF890001E076C /* CountryDetailVC.swift */; };
@@ -49,6 +50,7 @@
 		C61BA9E9239A9B710008C661 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		C61BA9EB239A9F010008C661 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
 		C61BA9EF239A9F560008C661 /* currencyExchange.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = currencyExchange.json; sourceTree = "<group>"; };
+		C625D395239EE17E00063487 /* CurrencyExchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExchange.swift; sourceTree = "<group>"; };
 		C682480F239AE538001E076C /* ImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPIClient.swift; sourceTree = "<group>"; };
 		C6824811239AE695001E076C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		C6824813239AF890001E076C /* CountryDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailVC.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				C682480F239AE538001E076C /* ImageAPIClient.swift */,
 				C6824811239AE695001E076C /* AppError.swift */,
 				C61BA9E9239A9B710008C661 /* Country.swift */,
+				C625D395239EE17E00063487 /* CurrencyExchange.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				C6824814239AF890001E076C /* CountryDetailVC.swift in Sources */,
 				C61BA9EA239A9B710008C661 /* Country.swift in Sources */,
+				C625D396239EE17E00063487 /* CurrencyExchange.swift in Sources */,
 				C61BA9C4239A990C0008C661 /* CountriesVC.swift in Sources */,
 				C61BA9EC239A9F010008C661 /* CountryCell.swift in Sources */,
 				C6824810239AE538001E076C /* ImageAPIClient.swift in Sources */,
